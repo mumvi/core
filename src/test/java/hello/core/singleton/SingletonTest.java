@@ -5,8 +5,11 @@ import hello.core.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+<<<<<<< HEAD
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+=======
+>>>>>>> origin/main
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -40,6 +43,7 @@ public class SingletonTest {
 
         assertThat(singletonService1).isSameAs(singletonService2);
     }
+<<<<<<< HEAD
 
     @Test
     @DisplayName("스프링 컨테이너와 싱글톤")
@@ -57,4 +61,6 @@ public class SingletonTest {
         //memberService1 != memberService2
         assertThat(memberService1).isSameAs(memberService2);
     }
+=======
+>>>>>>> origin/main
 }
